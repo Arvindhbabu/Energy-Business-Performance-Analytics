@@ -1,6 +1,6 @@
 # Energy Consumption & Business Performance Analytics
 
-<<<<<<< HEAD
+
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-ANSI%20%2F%20SQLite-orange.svg)](https://www.sqlite.org/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-DAX%20Enterprise-yellow.svg)](https://powerbi.microsoft.com/)
