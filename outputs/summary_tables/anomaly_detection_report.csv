@@ -1,0 +1,21 @@
+Date,Year_Month,Building,City,Metric,Value,Building_ZScore,Anomaly_Type,Classification,Is_Business_Anomaly
+2019-10-01,2019-10,B1000,New York,Total Utility Cost,47073.42,2.35,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-03-01,2019-03,B1001,New York,Total Utility Cost,46906.22,2.05,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-09-01,2019-09,B1001,New York,Gas Consumption,7351.0,2.04,High Spike,Off-Season Gas Spike (Suspected Boiler Fault / Space Heating Overrun),True
+2016-12-01,2016-12,B1002,New York,Water Consumption,502349.0,2.01,High Spike,Unseasonal Water Spike (Suspected Plumbing Leak / Facility Surge),True
+2019-01-01,2019-01,B1002,New York,Total Utility Cost,43620.22,2.31,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-02-01,2019-02,B1003,Los Angeles,Gas Consumption,7034.0,2.01,High Spike,Seasonal Peak Heating Demand (Expected Operational Seasonality),False
+2019-12-01,2019-12,B1003,Los Angeles,Total Utility Cost,45993.53,2.23,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-05-01,2019-05,B1005,Houston,Gas Consumption,6909.0,2.12,High Spike,Off-Season Gas Spike (Suspected Boiler Fault / Space Heating Overrun),True
+2019-05-01,2019-05,B1005,Houston,Total Utility Cost,43266.02,2.26,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-06-01,2019-06,B1005,Houston,Gas Consumption,6986.0,2.19,High Spike,Off-Season Gas Spike (Suspected Boiler Fault / Space Heating Overrun),True
+2019-07-01,2019-07,B1005,Houston,Gas Consumption,6984.0,2.19,High Spike,Off-Season Gas Spike (Suspected Boiler Fault / Space Heating Overrun),True
+2019-09-01,2019-09,B1005,Houston,Total Utility Cost,45048.29,2.57,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-07-01,2019-07,B1006,Phoenix,Total Utility Cost,43880.94,2.03,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2018-07-01,2018-07,B1007,Chicago,Total Utility Cost,43499.95,2.26,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-03-01,2019-03,B1008,Chicago,Total Utility Cost,46816.39,2.02,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-03-01,2019-03,B1009,Los Angeles,Total Utility Cost,44259.08,2.29,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-07-01,2019-07,B1009,Los Angeles,Total Utility Cost,42633.85,2.06,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-11-01,2019-11,B1009,Los Angeles,Total Utility Cost,46636.22,2.63,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-02-01,2019-02,B1010,Los Angeles,Total Utility Cost,46424.8,2.14,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True
+2019-08-01,2019-08,B1010,Los Angeles,Total Utility Cost,45613.08,2.03,High Expenditure Spike,Combined Rate & Consumption Cost Outlier,True

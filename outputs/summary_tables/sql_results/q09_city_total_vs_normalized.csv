@@ -1,0 +1,6 @@
+city,building_count,total_city_cost_usd,total_cost_rank,avg_cost_per_building_usd,normalized_cost_rank,portfolio_share_pct
+New York,3,4335044.43,1,1445014.81,2,27.36
+Chicago,3,4307315.61,2,1435771.87,4,27.19
+Los Angeles,3,4280143.14,3,1426714.38,5,27.02
+Phoenix,1,1479068.13,4,1479068.13,1,9.34
+Houston,1,1440927.75,5,1440927.75,3,9.1

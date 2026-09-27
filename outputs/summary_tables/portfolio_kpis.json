@@ -1,0 +1,29 @@
+{
+  "total_portfolio_cost_usd": 15842498.96,
+  "average_monthly_portfolio_cost_usd": 330052.06,
+  "average_monthly_building_cost_usd": 30004.73,
+  "peak_month": {
+    "year_month": "2019-09",
+    "cost_usd": 410503.77
+  },
+  "min_month": {
+    "year_month": "2016-11",
+    "cost_usd": 243543.52
+  },
+  "utility_cost_breakdown": {
+    "water_cost_usd": 10806192.07,
+    "water_cost_pct": 68.21,
+    "electricity_cost_usd": 2025296.02,
+    "electricity_cost_pct": 12.78,
+    "gas_cost_usd": 3011010.87,
+    "gas_cost_pct": 19.01
+  },
+  "total_volume_breakdown": {
+    "total_water_consumption_units": 186245327,
+    "total_electricity_consumption_kwh": 21666978,
+    "total_gas_consumption_units": 2553088,
+    "average_monthly_water_per_building": 352737.4,
+    "average_monthly_electricity_per_building": 41035.9,
+    "average_monthly_gas_per_building": 4835.4
+  }
+}

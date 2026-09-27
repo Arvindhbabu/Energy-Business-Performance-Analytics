@@ -1,0 +1,12 @@
+cost_rank,building_id,city,total_building_cost_usd,avg_monthly_cost_usd,portfolio_share_pct,cost_tier
+1,B1008,Chicago,1496830.1,31183.96,9.45,Top 5 Highest Cost
+2,B1006,Phoenix,1479068.13,30813.92,9.34,Top 5 Highest Cost
+3,B1001,New York,1477667.48,30784.74,9.33,Top 5 Highest Cost
+4,B1000,New York,1468356.73,30590.77,9.27,Top 5 Highest Cost
+5,B1003,Los Angeles,1461989.81,30458.12,9.23,Top 5 Highest Cost
+6,B1010,Los Angeles,1459011.21,30396.07,9.21,Mid Tier
+7,B1004,Chicago,1453834.05,30288.21,9.18,Bottom 5 Lowest Cost
+8,B1005,Houston,1440927.75,30019.33,9.1,Bottom 5 Lowest Cost
+9,B1002,New York,1389020.22,28937.92,8.77,Bottom 5 Lowest Cost
+10,B1009,Los Angeles,1359142.12,28315.46,8.58,Bottom 5 Lowest Cost
+11,B1007,Chicago,1356651.46,28263.57,8.56,Bottom 5 Lowest Cost

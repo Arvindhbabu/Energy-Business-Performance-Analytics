@@ -1,0 +1,4 @@
+utility_name,total_consumption_volume,unit_of_measure,total_cost_usd,cost_share_pct
+Water,186245327,Gallons/Units,10806192.43,68.21
+Gas,2553088,Units/Therms,3011010.94,19.01
+Electricity,21666978,kWh,2025296.05,12.78

@@ -1,0 +1,168 @@
+{
+  "validation_timestamp": "2026-09-26T20:47:30.423437",
+  "source_file": "Energy Consumption Data.xlsx",
+  "status": "PASSED",
+  "checks": {
+    "structure": {
+      "passed": true,
+      "sheets_found": [
+        "Energy Consumptions",
+        "Rates",
+        "Building Master"
+      ],
+      "energy_consumptions": {
+        "rows": 528,
+        "columns": [
+          "Date",
+          "Building",
+          "Water Consumption",
+          "Electricity Consumption",
+          "Gas Consumption"
+        ],
+        "dtypes": {
+          "Date": "datetime64[ns]",
+          "Building": "object",
+          "Water Consumption": "int64",
+          "Electricity Consumption": "int64",
+          "Gas Consumption": "int64"
+        }
+      },
+      "rates": {
+        "rows": 15,
+        "columns": [
+          "Year",
+          "Energy Type",
+          "Price Per Unit"
+        ],
+        "dtypes": {
+          "Year": "int64",
+          "Energy Type": "object",
+          "Price Per Unit": "float64"
+        }
+      },
+      "building_master": {
+        "rows": 11,
+        "columns": [
+          "Building",
+          "City",
+          "Country"
+        ],
+        "dtypes": {
+          "Building": "object",
+          "City": "object",
+          "Country": "object"
+        }
+      }
+    },
+    "missing_data": {
+      "passed": true,
+      "total_null_count": 0,
+      "energy_consumptions_nulls": {
+        "Date": 0,
+        "Building": 0,
+        "Water Consumption": 0,
+        "Electricity Consumption": 0,
+        "Gas Consumption": 0
+      },
+      "rates_nulls": {
+        "Year": 0,
+        "Energy Type": 0,
+        "Price Per Unit": 0
+      },
+      "building_master_nulls": {
+        "Building": 0,
+        "City": 0,
+        "Country": 0
+      }
+    },
+    "duplicates": {
+      "passed": true,
+      "energy_consumptions_exact_duplicates": 0,
+      "energy_consumptions_key_duplicates (Date, Building)": 0,
+      "building_master_key_duplicates (Building)": 0,
+      "rates_key_duplicates (Year, Energy Type)": 0
+    },
+    "dates": {
+      "passed": true,
+      "invalid_dates": 0,
+      "min_date": "2016-01-01",
+      "max_date": "2019-12-01",
+      "total_calendar_months": 48,
+      "monthly_continuity_complete": true,
+      "records_per_building": {
+        "B1000": 48,
+        "B1001": 48,
+        "B1002": 48,
+        "B1003": 48,
+        "B1004": 48,
+        "B1005": 48,
+        "B1006": 48,
+        "B1007": 48,
+        "B1008": 48,
+        "B1009": 48,
+        "B1010": 48
+      }
+    },
+    "numerical_fields": {
+      "passed": true,
+      "columns": {
+        "Water Consumption": {
+          "passed": true,
+          "negative_count": 0,
+          "zero_count": 0,
+          "min": 202733.0,
+          "max": 505757.0,
+          "mean": 352737.36
+        },
+        "Electricity Consumption": {
+          "passed": true,
+          "negative_count": 0,
+          "zero_count": 0,
+          "min": 21445.0,
+          "max": 59522.0,
+          "mean": 41035.94
+        },
+        "Gas Consumption": {
+          "passed": true,
+          "negative_count": 0,
+          "zero_count": 0,
+          "min": 2149.0,
+          "max": 7351.0,
+          "mean": 4835.39
+        }
+      }
+    },
+    "categorical_fields": {
+      "passed": true,
+      "unique_buildings_count": 11,
+      "unique_cities": [
+        "Chicago",
+        "Houston",
+        "Los Angeles",
+        "New York",
+        "Phoenix"
+      ],
+      "unique_countries": [
+        "USA"
+      ],
+      "unique_energy_types": [
+        "Electricity",
+        "Gas",
+        "Water"
+      ]
+    },
+    "referential_integrity": {
+      "passed": true,
+      "unmapped_buildings_count": 0,
+      "unmapped_buildings": [],
+      "unmapped_consumption_years": [],
+      "rates_definition_complete_for_all_years": true
+    }
+  },
+  "summary": {
+    "total_checks": 7,
+    "passed_checks": 7,
+    "failed_checks": 0,
+    "dataset_certified_for_processing": true
+  }
+}

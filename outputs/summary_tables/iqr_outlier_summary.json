@@ -1,0 +1,42 @@
+{
+  "Water_Consumption": {
+    "q1": 271849.75,
+    "q3": 429888.25,
+    "iqr": 158038.5,
+    "lower_bound": 34792.0,
+    "upper_bound": 666946.0,
+    "outlier_count": 0,
+    "min_value": 202733.0,
+    "max_value": 505757.0
+  },
+  "Electricity_Consumption": {
+    "q1": 33845.5,
+    "q3": 48677.25,
+    "iqr": 14831.75,
+    "lower_bound": 11597.88,
+    "upper_bound": 70924.88,
+    "outlier_count": 0,
+    "min_value": 21445.0,
+    "max_value": 59522.0
+  },
+  "Gas_Consumption": {
+    "q1": 4074.5,
+    "q3": 5590.5,
+    "iqr": 1516.0,
+    "lower_bound": 1800.5,
+    "upper_bound": 7864.5,
+    "outlier_count": 0,
+    "min_value": 2149.0,
+    "max_value": 7351.0
+  },
+  "Total_Cost": {
+    "q1": 24836.44,
+    "q3": 34865.34,
+    "iqr": 10028.9,
+    "lower_bound": 9793.09,
+    "upper_bound": 49908.69,
+    "outlier_count": 0,
+    "min_value": 15549.79,
+    "max_value": 47073.423760000005
+  }
+}
